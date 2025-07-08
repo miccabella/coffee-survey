@@ -1,0 +1,97 @@
+h1, p {
+  text-align: center;
+  font-family: Georgia;
+  color: #6F4E37
+}
+
+body {
+  background-color: #F0E3CE
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em; 
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"] {
+  width: 500px;
+  max-width: 500px;
+  border: none;
+  height: 20px;
+}
+
+label {
+  color: #6F4E37;
+  margin: 0.5em 0;
+  display: block
+}
+
+textarea {
+  border: none;
+  width: 500px;
+  max-width: 500px;
+  height: 40px
+}
+
+legend {
+  color: #6F4E37;
+}
+
+
+section {
+ border: none; 
+ margin-top: 0.5em;
+}
+
+.flavour {
+  margin: 0
+}
+
+.radio-block {
+  display: block;
+  margin-bottom: 0.5em;
+  color: #6F4E37;
+}
+
+.radio-block input[type="radio"] {
+  margin-right: 0.5em;
+}
+
+.checkbox-label {
+  vertical-align: middle;
+  margin-right: 0.7em;
+}
+
+section {
+  margin-top: 1em
+}
+
+.milk-options {
+  margin-bottom: 1em
+}
+
+.thanks {
+  margin-bottom: 0.1em;
+  margin-top: 0
+}
+
+.submit {
+  margin-bottom: 2em
+}
+
+button {
+  display: block;
+  width: 50%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #6F4E37 ;
+  border-color: #FFFFFF;
+  min-width: 300px;
+  color: #F0E3CE
+}

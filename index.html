@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   <link rel="stylesheet" href="styles.css">
+   </head>
+   <body>
+   <h1 id="title">What Does <em>Your</em>  Perfect Cup of Coffee Look Like?</h1>
+
+   <p id="description">Build your ideal "go-to" coffee to let us know what <em>you</em> like! </p>
+
+
+<form id="survey-form">
+<label id="name-label">Enter Your Name Here: <input id="name" type="text" required placeholder="Bob"/> </label>
+
+<label id="email-label">Enter Your Email Here: <input id="email" type="email" required placeholder="bob101@gmail.com"/> </label>
+
+<label id="number-label">How many cups of coffee do you have a day on average? <input id="number" type="number" required min="1" max="10" placeholder="2"/> </label>
+
+<legend>How many shots of espresso are in your drink?</legend>
+<select id="dropdown" required>
+  <option>1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  </select>
+
+<section class="milk-options">
+  <legend>What milk option do you prefer? Choose one.</legend>
+
+  <label class="radio-block">
+    <input type="radio" name="milk-options" value="normal" class="inline" required checked>
+    Normal Milk
+  </label>
+
+  <label class="radio-block">
+    <input type="radio" name="milk-options" value="almond" class="inline" required>
+    Almond Milk
+  </label>
+
+  <label class="radio-block">
+    <input type="radio" name="milk-options" value="oat" class="inline" required>
+    Oat Milk
+  </label>
+
+    <label class="radio-block">
+    <input type="radio" name="milk-options" value="soy" class="inline" required>
+    Soy Milk
+  </label>
+
+  <label class="radio-block">
+    <input type="radio" name="milk-options" value="coconut" class="inline" required>
+    Coconut Milk
+  </label>
+
+  <label class="radio-block">
+    <input type="radio" name="milk-options" value="no-milk" class="inline" required>
+    No Milk
+  </label>
+
+</section>
+
+<section class="flavour">
+  <legend>What flavour do you want? You can select multiple (if you must) or none.</legend>
+
+  <label>
+    <input type="checkbox" class="checkbox-label" name="flavour" value="vanilla" checked>
+    Vanilla
+    </label>
+
+     <label>
+    <input type="checkbox" class="checkbox-label" name="flavour" value="caramel">
+    Caramel
+    </label>
+
+    <label>
+    <input type="checkbox" class="checkbox-label" name="flavour" value="condensed-milk">
+    Condensed Milk
+    </label>
+
+    <label>
+    <input type="checkbox" class="checkbox-label" name="flavour" value="coconut">
+    Coconut
+    </label>
+  
+  <label>
+    <input type="checkbox" class="checkbox-label" name="flavour" value="chocolate">
+    Chocolate
+    </label>
+
+    <label>
+    <input type="checkbox" class="checkbox-label" name="other" value="other" required>
+    Other
+    </label>
+
+    <label id="option">If you selected <em>other</em>, please specify:  <input id="other" type="text" placeholder="Enter your flavour of choice here"/> </label>
+</section>
+
+<section>
+  <legend>Lastly, are there any extras you'd like to add? You can select multiple or none.</legend>
+
+ <label>
+    <input type="checkbox" class="checkbox-label" name="brown-sugar" value="brown-sugar" checked>
+    Brown sugar
+    </label>
+
+    <label>
+    <input type="checkbox" class="checkbox-label" name="white-sugar" value="white-sugar">
+    White sugar
+    </label>
+
+<label>
+    <input type="checkbox" class="checkbox-label" name="foam" value="foam">
+    Foam
+    </label>
+
+    <label>
+    <input type="checkbox" class="checkbox-label" name="cream" value="cream">
+    Cream
+    </label>
+
+<label>
+    <input type="checkbox" class="checkbox-label" name="whipped-cream" value="whipped-cream">
+    Whipped cream
+    </label>
+
+<label>
+    <input type="checkbox" class="checkbox-label" name="whipped-cream" value="whipped-cream">
+    Other
+    </label>
+
+     <label id="option">If you selected <em>other</em>, please specify:  <input id="other" type="text" placeholder="Enter your extra(s) here"/> </label>
+
+  </section>
+
+<section class="drink-name">
+<label id="drink-name" for="drink-name">Give your drink a unique name and describe it:</label>
+<textarea id="drink-name" rows="5" cols="50" placeholder="Caramel Deliciousness 3000"></textarea>
+</section>
+
+<button class="submit" type="submit" id="submit">Submit</button>
+
+<p class="thanks">Thank you for taking this survey!</p>
+<p class="thanks">Enjoy your <em>exquisite</em> coffee!</p>
+
+  </form>
+  </body>
+  </html>
